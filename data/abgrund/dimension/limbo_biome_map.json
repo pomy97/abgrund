@@ -1,0 +1,60 @@
+{
+  "type": "abgrund:limbo",
+  "generator": {
+    "settings": "abgrund:limbo_biome_map",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "abgrund:tech/limbo_lower",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/limbo_lower",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/limbo_upper",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.65
+          }
+        },
+        {
+          "biome": "abgrund:tech/limbo_upper",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.65
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    }
+  }
+}

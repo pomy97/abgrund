@@ -1,0 +1,84 @@
+{
+  "type": "abgrund:limbo",
+  "generator": {
+    "settings": "abgrund:limbo",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "abgrund:abyss",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:dead_forest",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": -1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": -0.45,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.76
+          }
+        },
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.45,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.76
+          }
+        },
+        {
+          "biome": "abgrund:basalt_flats",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.85
+          }
+        },
+        {
+          "biome": "abgrund:obsidian_wastes",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.85
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    }
+  }
+}
