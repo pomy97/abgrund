@@ -1,0 +1,9 @@
+{
+  "values": [
+    "sharpness",
+    {
+      "id": "enchancement:beheading",
+      "required": false
+    }
+  ]
+}
