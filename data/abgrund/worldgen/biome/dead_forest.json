@@ -19,7 +19,7 @@
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abgrund"
+            "sound_id": "abgrund:music.limbo.abyss"
           },
           "min_delay": 12000,
           "max_delay": 24000,
@@ -33,8 +33,8 @@
     "sky_color": 1250067,
     "water_color": 2565927,
     "water_fog_color": 8750469,
-    "grass_color": 3355954,
-    "foliage_color": 3355954,
+    "grass_color": 8816262,
+    "foliage_color": 6381921,
     "particle": {
       "options": {
         "type": "minecraft:ash"
