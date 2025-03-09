@@ -36,9 +36,95 @@
               "points": [
                 {
                   "derivative": 0.0,
-                  "location": -1.2,
+                  "location": -2,
                   "value": {
                     "coordinate": "abgrund:limbo/erosion_on_crack",
+                    "points": [
+                      {
+                        "derivative": 0.0,
+                        "location": -0.85,
+                        "value": -1.4
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.7,
+                        "value": -0.425
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.71,
+                        "value": 1.425
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.69,
+                        "value": 1.425
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.65,
+                        "value": 0
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.5,
+                        "value": 0.45
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.45,
+                        "value": -1.45
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.4,
+                        "value": 0.6
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.41,
+                        "value": -1.6
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.39,
+                        "value": -1.6
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.35,
+                        "value": -0.475
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.1,
+                        "value": -1.5
+                      },{
+                        "derivative": 0.0,
+                        "location": 0.15,
+                        "value": 0.4
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": 0.2,
+                        "value": -0.4
+                      },{
+                        "derivative": 0.0,
+                        "location": 0.25,
+                        "value": 0.4
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": 0.7,
+                        "value": -0.3
+                      }
+                    ]
+                  }
+                },{
+                  "derivative": 0.0,
+                  "location": -0.76,
+                  "value": {
+                    "coordinate": "abgrund:limbo/spiked_erosion",
                     "points": [
                       {
                         "derivative": 0.0,
@@ -123,27 +209,32 @@
                 },
                 {
                   "derivative": 0.0,
-                  "location": -1.02,
-                  "value": -0.3
+                  "location": -0.75,
+                  "value": -0.4
                 },
                 {
                   "derivative": 0.0,
                   "location": -0.51,
-                  "value": -0.2222
+                  "value": -0.3
                 },
                 {
                   "derivative": 0.0,
                   "location": -0.44,
-                  "value": -0.22
+                  "value": -0.2222
                 },
                 {
                   "derivative": 0.0,
                   "location": -0.18,
-                  "value": -0.12
+                  "value": -0.22
                 },
                 {
                   "derivative": 0.0,
-                  "location": -0.16,
+                  "location": -0.1,
+                  "value": -0.15
+                },
+                {
+                  "derivative": 0.0,
+                  "location": -0.08,
                   "value": {
                     "coordinate": "abgrund:limbo/erosion",
                     "points": [
@@ -187,7 +278,7 @@
                 },
                 {
                   "derivative": 0.0,
-                  "location": -0.15,
+                  "location": 0.1,
                   "value": {
                     "coordinate": "abgrund:limbo/erosion",
                     "points": [
@@ -231,7 +322,7 @@
                 },
                 {
                   "derivative": 0.0,
-                  "location": -0.1,
+                  "location": 0.15,
                   "value": {
                     "coordinate": "abgrund:limbo/erosion",
                     "points": [
