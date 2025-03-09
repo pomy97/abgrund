@@ -152,7 +152,7 @@
                           "argument1": "abgrund:limbo/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "minecraft:overworld/factor"
+                            "argument": "abgrund:limbo/factor"
                           }
                         }
                       }
@@ -375,15 +375,25 @@
                               "type": "condition",
                               "if_true": {
                                 "type": "biome",
-                                "biome_is": [
-                                  "abgrund:grenzen",
-                                  "abgrund:abyss_barrens"
-                                ]
+                                "biome_is": ["abgrund:grenzen"]
                               },
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
                                   "Name": "minecraft:obsidian"
+                                }
+                              }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
+                                "biome_is": ["abgrund:abyss_barrens"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:coal_block"
                                 }
                               }
                             }
@@ -460,15 +470,25 @@
                               "type": "condition",
                               "if_true": {
                                 "type": "biome",
-                                "biome_is": [
-                                  "abgrund:grenzen",
-                                  "abgrund:abyss_barrens"
-                                ]
+                                "biome_is": ["abgrund:grenzen"]
                               },
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
                                   "Name": "minecraft:obsidian"
+                                }
+                              }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
+                                "biome_is": ["abgrund:abyss_barrens"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:coal_block"
                                 }
                               }
                             }
@@ -614,14 +634,26 @@
                     "biome_is": [
                       "abgrund:abyss",
                       "abgrund:dead_forest",
-                      "abgrund:grenzen",
-                      "abgrund:abyss_barrens"
+                      "abgrund:grenzen"
                     ]
                   },
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:obsidian"
+                    }
+                  }
+                },
+                {
+                  "type": "condition",
+                  "if_true": {
+                    "type": "biome",
+                    "biome_is": ["abgrund:abyss_barrens"]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:coal_block"
                     }
                   }
                 }
