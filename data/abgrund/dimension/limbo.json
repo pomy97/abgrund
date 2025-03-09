@@ -6,6 +6,18 @@
     "biome_source": {
       "biomes": [
         {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": [-1.2,-1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+
+          }
+        },{
           "biome": "abgrund:abyss",
           "parameters": {
             "temperature": 0,
