@@ -110,9 +110,7 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 > You need this place to escape.
 
 # TODO LIST
-[X] = Done  
-[/] = WIP  
-[_] = Not started
+
 ## BIOMES
 
 ### Lower Limbo
