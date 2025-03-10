@@ -75,7 +75,7 @@ This is the lower section of Limbo. It is very dark with very few signs of life.
 > Like the Abyss Wastes, but with much more trees. You can find some groups of houses here, as well as some small camps. There's a lot more foliage here in general, too.
 
 **Abyss Barrens**
-> Found deep into Senken. Nothing spawns, nor is there anything interesting to be found. It is a very inhospitable land. I'll let you see why. Hint: the terrain function I used to generate it is called `erosion_on_crack`. It is a good source of coal though.
+> Found deep into Senken. Nothing spawns, nor is there anything interesting to be found. It is a very inhospitable land. I'll let you see why. Hint: the terrain function I used to generate it is called `erosion_on_crack`. It is a good source of coal though. And Ancient Debris, if you're willing to dig through the obsidian.
 
 ## Grenzen
 Just one biome. Obsidian top to bottom, ain't no nothing getting over here. It serves as the dividing line between Senken and Oberer. There's no resources in this biome, sans some Ancient Debris hidden in the obsidian, if you really want to mine for it.  
@@ -116,33 +116,33 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 ## BIOMES
 
 ### Lower Limbo
-- [/] **Abyss**
+- [ ] **Abyss**
 
-- [X] **Abyss Barrens**
-- [/] **Dead Forest**
+- [ ] **Abyss Barrens**
+- [ ] **Dead Forest**
   - Add Structures
   - House
   - Altar
 - [X] **Grenzen**
 ### Upper Limbo
-- [/] **Basalt Flats**
+- [ ] **Basalt Flats**
   - Structures?
   - Caves
 
-- [/] **Obsidian Wastes**
+- [ ] **Obsidian Wastes**
   - Kinda like the basalt deltas but Obsidian
   - 100% Obsidian (and co)
   - Ancient Debris spawns here w/ spiked rates VS the nether
   - Obsidian from top of world to bottom (like Grenzen)
 
-- [_] **Sable Garden**
+- [ ] **Sable Garden**
   - Pale Garden but sparse
   - Some lights in the trees instead of Creaking Hearts. No creakings here!
   - Structures
     - Cabin
     - Abandoned village
 
-- [_] **Jardin**
+- [ ] **Jardin**
   - Continentalness = 1 (inland to the max)
   - The flower garden from THE DECAYEDD
   - Features:
@@ -152,18 +152,18 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
   - Structures
     - Something to help with escaping Limbo
 
-- [_] **Sable Plains**
+- [ ] **Sable Plains**
   - Hardly forested version of the Sable Garden
   - TONS OF GRASS
   - Structures
     - Abandoned village
   - Blackstone Boulders
 
-- [_] **Dripstone Flats**
+- [ ] **Dripstone Flats**
   - Dripstone cave but surface
   - Boosted copper rates
 
-- [_] **Bluecap Forest**
+- [ ] **Bluecap Forest**
   - Warped Forest but sparse and with big boi mushrooms
 
 
