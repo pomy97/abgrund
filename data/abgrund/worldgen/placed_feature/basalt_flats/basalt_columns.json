@@ -1,12 +1,16 @@
 {
-    "feature": "abgrund:basalt_flats/basalt_columns",
-    "placement": [
-      {
-        "type": "minecraft:count_on_every_layer",
-        "count": 1
-      },
-      {
-        "type": "minecraft:biome"
-      }
-    ]
-  }
+  "feature": "abgrund:basalt_flats/basalt_columns",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

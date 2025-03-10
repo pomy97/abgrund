@@ -3,8 +3,8 @@
   "config": {
     "height": {
       "type": "biased_to_bottom",
-      "max_inclusive": 5,
-      "min_inclusive": 3
+      "max_inclusive": 4,
+      "min_inclusive": 1
     },
     "reach": {
       "type": "minecraft:uniform",
