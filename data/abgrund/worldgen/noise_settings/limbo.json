@@ -216,8 +216,6 @@
     "vein_toggle": 0
   },
 
-
-
   "surface_rule": {
     "type": "minecraft:sequence",
     "sequence": [
@@ -334,6 +332,20 @@
                                     }
                                   }
                                 ]
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:sable_garden",
+                                "abgrund:sable_plains"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:grass_block"
+                                }
                               }
                             },
                             {
@@ -490,6 +502,20 @@
                                 "type": "minecraft:block",
                                 "result_state": {
                                   "Name": "minecraft:coal_block"
+                                }
+                              }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
+                                "biome_is": ["abgrund:sable_garden",
+                                "abgrund:sable_plains"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:dirt"
                                 }
                               }
                             }
@@ -655,6 +681,20 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:coal_block"
+                    }
+                  }
+                },
+                {
+                  "type": "condition",
+                  "if_true": {
+                    "type": "biome",
+                    "biome_is": ["abgrund:sable_garden",
+                  "abgrund:sable_plains"]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:stone"
                     }
                   }
                 }

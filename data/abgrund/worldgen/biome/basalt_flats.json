@@ -85,6 +85,10 @@
     "wither_skeleton": {
       "charge": 1.7,
       "energy_budget": 0.15
+    },
+    "phantom": {
+      "charge": 3,
+      "energy_budget": 0.17
     }
   },
   "spawners": {
