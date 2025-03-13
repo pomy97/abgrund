@@ -106,7 +106,7 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 > Obsidian monoliths with absolutely zero care for order. Plenty of lava, obsidian spiked everywhere. The core of the biome comprises of a LOT of Obsidian. Great source of Ancient Debris... if you really want to mine for it.
 
 **Jardin**
-> Very inland in Zenith. Pretty much the flower garden from THE DECAYEDD. I totally just ripped off the series here. This biome is incredibly offputting when compared to the surroundings. Not even Limbo itself seems to accept that it's a part the dimension. Generates occasional oak trees and spawns some passive overworld mobs.  
+> Very inland in Oberer. Pretty much the flower garden from THE DECAYEDD. I totally just ripped off the series here. This biome is incredibly offputting when compared to the surroundings. Not even Limbo itself seems to accept that it's a part the dimension. Generates occasional oak trees and spawns some passive overworld mobs.  
 > You need this place to escape.
 
 # TODO LIST
