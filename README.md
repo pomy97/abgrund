@@ -166,3 +166,6 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 
 
 for you peep digging through the code, 4864770 = ABGRUND
+
+The Abgrund © 2025 by [pomy97](https://modrinth.com/user/pomy97) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+The only places I upload my projects are on [Curseforge](https://legacy.curseforge.com/members/pomy97/projects) and [Modrinth](https://modrinth.com/user/pomy97)
