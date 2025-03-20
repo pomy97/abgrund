@@ -22,18 +22,6 @@
         }
       }
     ],
-    "post_attack": [
-      {
-        "requirements": [
-          {
-            "condition": "damage_source_properties",
-            "predicate": {
-              "is_direct": true
-            }
-          }
-        ]
-      }
-    ],
     "attributes": [
       {
         "attribute": "attack_damage",
