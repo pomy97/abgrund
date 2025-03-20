@@ -1,6 +1,7 @@
 {
   "values": [
     "sharpness",
+    "efficiency",
     {
       "id": "enchancement:beheading",
       "required": false

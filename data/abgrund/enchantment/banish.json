@@ -11,18 +11,37 @@
     "base": 20,
     "per_level_above_first": 0
   },
-  "slots": ["mainhand", "offhand"],
+  "slots": ["mainhand"],
   "weight": 1,
   "effects": {
-    "damage": [
+    "knockback": [
       {
         "effect": {
-          "type": "multiply",
-          "factor": 0.5
+          "type": "add",
+          "value": 1
         }
+      }
+    ],
+    "post_attack": [
+      {
+        "requirements": [
+          {
+            "condition": "damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          }
+        ]
+      }
+    ],
+    "attributes": [
+      {
+        "attribute": "attack_damage",
+        "amount": -3,
+        "id": "abgrund:banish_enchantment",
+        "operation": "add_value"
       }
     ]
   },
-  "exclusive_set": "#abgrund:exclusive_set/abyss_curse",
-  "primary_items": "crossbow"
+  "exclusive_set": "#abgrund:exclusive_set/abyss_curse"
 }

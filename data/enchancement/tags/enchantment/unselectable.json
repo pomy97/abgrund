@@ -1,5 +1,8 @@
 {
-    "values": [
-        "abgrund:abyss_curse"
-    ]
+  "values": [
+    {
+      "id": "abgrund:banish",
+      "required": false
+    }
+  ]
 }
