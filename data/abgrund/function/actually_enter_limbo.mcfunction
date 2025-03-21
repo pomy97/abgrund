@@ -1,4 +1,3 @@
-say help
 scoreboard players set $limbo_teleport_success abg.attempts 0
 $function uthi:msg/debug {msg: "\"Attempting to teleport player to ($(X),$(Z))\""}
 $execute store result score $limbo_teleport_success abg.attempts run spreadplayers $(X) $(Z) 0 1 false @s
