@@ -18,7 +18,7 @@
     "music": [],
     "music_volume": 0.0,
     "sky_color": 7829367,
-    "water_color": 7768221,
+    "water_color": 1912146,
     "water_fog_color": 5597568
   },
   "features": [
@@ -31,12 +31,6 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
@@ -63,8 +57,7 @@
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "minecraft:pale_garden_vegetation",
-      "minecraft:pale_moss_patch",
+      "abgrund:oberer/pale_oak_checked",
       "minecraft:pale_garden_flowers",
       "minecraft:flower_pale_garden",
       "minecraft:patch_grass_forest",
@@ -99,17 +92,11 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "sheep",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 10
       }
     ],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 1
 }

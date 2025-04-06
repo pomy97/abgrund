@@ -18,15 +18,15 @@
     "music": [],
     "music_volume": 0.0,
     "sky_color": 7829367,
-    "water_color": 7768221,
+    "water_color": 1912146,
     "water_fog_color": 5597568
   },
   "features": [
     [],
     ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
-    ["minecraft:amethyst_geode", "abgrund:blackstone_rock"],
+    ["minecraft:amethyst_geode", "abgrund:oberer/blackstone_rock"],
     [],
-    ["abgrund:torch_post"],
+    ["abgrund:oberer/torch_post"],
     [],
     [
       "minecraft:ore_dirt",
@@ -63,11 +63,12 @@
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "minecraft:pale_moss_patch",
+      "abgrund:oberer/pale_moss_patch",
+      "abgrund:oberer/pale_moss_patch_big",
       "minecraft:pale_garden_flowers",
       "minecraft:flower_pale_garden",
-      "abgrund:patch_grass_sable_plain",
-      "abgrund:patch_tall_grass_sable_plains"
+      "abgrund:oberer/patch_grass_sable_plains",
+      "abgrund:oberer/patch_tall_grass_sable_plains"
     ],
     []
   ],
@@ -85,7 +86,7 @@
       "charge": 2,
       "energy_budget": 0.17
     },
-    "zombie": {
+    "husk": {
       "charge": 2,
       "energy_budget": 0.17
     }
@@ -95,13 +96,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "zombie",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "sheep",
+        "type": "husk",
         "maxCount": 3,
         "minCount": 1,
         "weight": 1
@@ -120,5 +115,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 1
 }

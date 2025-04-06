@@ -1,0 +1,118 @@
+{
+  "carvers": [],
+  "downfall": 0.3,
+  "temperature": 1,
+  "has_precipitation": false,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.abyss"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.5,
+    "fog_color": 5066061,
+    "sky_color": 9408399,
+    "water_color": 8949399,
+    "water_fog_color": 8750469,
+    "grass_color": 8816262,
+    "foliage_color": 6381921,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground"],
+    ["minecraft:amethyst_geode"],
+    [],
+    [],
+    [
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "abgrund:oberer/ore_iron_surface",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_medium",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper"
+    ],
+    ["abgrund:oberer/dripstone"],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "patch_dead_bush",
+      "patch_dead_bush_2",
+      "patch_cactus_desert"
+    ],
+    []
+  ],
+  "spawn_costs": {
+    "skeleton": {
+      "charge": 1.7,
+      "energy_budget": 0.15
+    },
+    "wither_skeleton": {
+      "charge": 1.7,
+      "energy_budget": 0.15
+    },
+    "phantom": {
+      "charge": 3,
+      "energy_budget": 0.17
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "skeleton",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "wither_skeleton",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 1
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  }
+}

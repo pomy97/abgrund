@@ -1,0 +1,21 @@
+{
+  "condition": "location_check",
+  "predicate": {
+    "biomes": [
+      "abgrund:abyss",
+      "abgrund:abyss_barrens",
+      "abgrund:basalt_flats",
+      "abgrund:bluecap_forest",
+      "abgrund:cursed_valley",
+      "abgrund:dead_forest",
+      "abgrund:dead_valley",
+      "abgrund:dripstone_desert",
+      "abgrund:grenzen",
+      "abgrund:sable_garden",
+      "abgrund:sable_plains",
+      "pale_garden",
+      "deep_dark",
+      "warped_forest"
+    ]
+  }
+}

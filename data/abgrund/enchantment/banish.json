@@ -14,7 +14,7 @@
   "slots": ["mainhand"],
   "weight": 1,
   "effects": {
-    "knockback": [
+    "minecraft:knockback": [
       {
         "effect": {
           "type": "add",
@@ -22,14 +22,49 @@
         }
       }
     ],
-    "attributes": [
+    "post_attack": [],
+    "minecraft:tick": [
       {
-        "attribute": "attack_damage",
-        "amount": -3,
-        "id": "abgrund:banish_enchantment",
-        "operation": "add_value"
+        "effect": {
+          "type": "run_function",
+          "function": "abgrund:banish/active"
+        },
+        "requirements": {
+          "condition": "location_check",
+          "predicate": {
+            "biomes": "#abgrund:banish_effective"
+          }
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "add",
+          "value": 3
+        },
+        "requirements": {
+          "condition": "location_check",
+          "predicate": {
+            "biomes": "#abgrund:banish_effective"
+          }
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "abgrund:banish/heal"
+        },
+        "requirements": {
+          "condition": "location_check",
+          "predicate": {
+            "biomes": "#abgrund:banish_effective"
+          }
+        }
       }
     ]
   },
-  "exclusive_set": "#abgrund:exclusive_set/abyss_curse"
+  "exclusive_set": "#abgrund:exclusive_set/banish"
 }

@@ -1,7 +1,7 @@
 {
   "carvers": [],
   "downfall": 0.3,
-  "temperature": 0.2,
+  "temperature": 1,
   "has_precipitation": false,
   "effects": {
     "additions_sound": {
@@ -29,9 +29,9 @@
       }
     ],
     "music_volume": 0.5,
-    "fog_color": 460551,
-    "sky_color": 2368548,
-    "water_color": 2565927,
+    "fog_color": 5066061,
+    "sky_color": 9408399,
+    "water_color": 1912146,
     "water_fog_color": 8750469,
     "grass_color": 8816262,
     "foliage_color": 6381921,
@@ -47,12 +47,12 @@
     ["minecraft:lake_lava_underground"],
     ["minecraft:amethyst_geode"],
     [],
-    ["abgrund:basalt_flats/basalt_columns"],
+    ["abgrund:oberer/basalt_columns_basalt_flats"],
     [
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
-      "abgrund:basalt_flats/ore_iron_surface",
+      "abgrund:oberer/ore_iron_surface",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
@@ -72,9 +72,9 @@
     [],
     [
       "minecraft:glow_lichen",
-      "abgrund:basalt_flats/decayed_tree",
-      "abgrund:basalt_flats/patch_dead_coral",
-      "abgrund:basalt_flats/patch_dead_coral_fan"
+      "abgrund:oberer/pine_tree",
+      "abgrund:oberer/patch_dead_coral_basalt_flats",
+      "abgrund:oberer/patch_dead_coral_fan_basalt_flats"
     ]
   ],
   "spawn_costs": {

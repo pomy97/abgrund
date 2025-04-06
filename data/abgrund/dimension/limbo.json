@@ -8,12 +8,101 @@
         {
           "biome": "abgrund:abyss_barrens",
           "parameters": {
-            "temperature": [-1,1],
-            "humidity": 0,
-            "continentalness": [
-              -1.2,
-              -0.93
-            ],
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:abyss_barrens",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1.4],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+        
+
+
+
+
+        {
+          "biome": "abgrund:abyss",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-1.4, -0.13],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:dead_forest",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-1.4, -0.13],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -23,9 +112,33 @@
         {
           "biome": "abgrund:abyss",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": -0.5,
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-1.4, -0.13],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:dead_valley",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-1.4, -0.13],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:cursed_valley",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-1.4, -0.13],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -35,9 +148,26 @@
         {
           "biome": "abgrund:abyss",
           "parameters": {
-            "temperature": 1,
-            "humidity": 0,
-            "continentalness": -0.5,
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-1.4, -0.13],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+        
+
+
+
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-0.13, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -47,42 +177,104 @@
         {
           "biome": "abgrund:grenzen",
           "parameters": {
-            "temperature": 0,
-            "humidity": [-1,1],
-            "continentalness": [
-              0.15,
-              0.3
-            ],
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-0.13, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.25
+            "offset": 0
           }
         },
         {
           "biome": "abgrund:grenzen",
           "parameters": {
-            "temperature": 1,
-            "humidity": [-1,1],
-            "continentalness": [
-              0.15,
-              0.3
-            ],
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-0.13, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
-            "offset": 0.25
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-0.13, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-0.13, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:grenzen",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-0.13, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:bluecap_forest",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:bluecap_forest",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
           }
         },
         {
           "biome": "abgrund:basalt_flats",
           "parameters": {
-            "temperature": 0,
-            "humidity": [-1,1],
-            "continentalness": [
-              0.3,
-              0.7
-            ],
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -90,14 +282,11 @@
           }
         },
         {
-          "biome": "abgrund:sable_plains",
+          "biome": "abgrund:dripstone_desert",
           "parameters": {
-            "temperature": 1,
-            "humidity": [-1,1],
-            "continentalness": [
-              0.3,
-              0.32
-            ],
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -107,12 +296,189 @@
         {
           "biome": "abgrund:sable_garden",
           "parameters": {
-            "temperature": 1,
-            "humidity": [-1,1],
-            "continentalness": [
-              0.32,
-              0.9
-            ],
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:sable_plains",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:unfactored_barrens",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:unfactored_barrens",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:dripstone_desert",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:basalt_flats",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:sable_plains",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:sable_garden",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:unfactored_barrens",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:unfactored_barrens",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:sable_garden",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:sable_garden",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:jardin",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:jardin",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,

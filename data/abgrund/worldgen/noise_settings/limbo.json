@@ -2,7 +2,7 @@
   "default_block": {
     "Name": "minecraft:stone"
   },
-  "sea_level": -64,
+  "sea_level": 10,
   "default_fluid": {
     "Name": "minecraft:water",
     "Properties": {
@@ -14,8 +14,8 @@
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "noise": {
-    "height": 384,
-    "min_y": -64,
+    "height": 512,
+    "min_y": 192,
     "size_horizontal": 1,
     "size_vertical": 2
   },
@@ -66,9 +66,9 @@
                 "argument1": {
                   "type": "minecraft:y_clamped_gradient",
                   "from_value": 0.0,
-                  "from_y": -64,
+                  "from_y": 192,
                   "to_value": 1.0,
-                  "to_y": -40
+                  "to_y": 216
                 },
                 "argument2": {
                   "type": "minecraft:add",
@@ -81,9 +81,9 @@
                       "argument1": {
                         "type": "minecraft:y_clamped_gradient",
                         "from_value": 1.0,
-                        "from_y": 200,
+                        "from_y": 448,
                         "to_value": 0.0,
-                        "to_y": 384
+                        "to_y": 512
                       },
                       "argument2": {
                         "type": "minecraft:add",
@@ -134,9 +134,9 @@
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
           "from_value": 0.0,
-          "from_y": -64,
+          "from_y": 192,
           "to_value": 1.0,
-          "to_y": -40
+          "to_y": 216
         },
         "argument2": {
           "type": "minecraft:add",
@@ -149,9 +149,9 @@
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
                 "from_value": 1.0,
-                "from_y": 240,
+                "from_y": 304,
                 "to_value": 0.0,
-                "to_y": 256
+                "to_y": 320
               },
               "argument2": {
                 "type": "minecraft:add",
@@ -193,15 +193,7 @@
       "y_scale": 0.0
     },
     "ridges": 0,
-    "temperature": {
-      "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
-      "shift_x": "minecraft:shift_x",
-      "shift_y": 0.0,
-      "shift_z": "minecraft:shift_z",
-      "xz_scale": 0.25,
-      "y_scale": 0.0
-    },
+    "temperature": "abgrund:limbo/temperature",
     "vegetation": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:vegetation",
@@ -338,8 +330,80 @@
                               "type": "minecraft:condition",
                               "if_true": {
                                 "type": "minecraft:biome",
-                                "biome_is": ["abgrund:sable_garden",
-                                "abgrund:sable_plains"]
+                                "biome_is": ["abgrund:basalt_flats"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": 0.1,
+                                      "min_threshold": 0,
+                                      "noise": "gravel"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:block",
+                                      "result_state": {
+                                        "Name": "minecraft:basalt",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:smooth_basalt"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:bluecap_forest"]
+                              },
+                              "then_run": {
+                                "type": "sequence",
+                                "sequence": [
+                                  {
+                                    "type": "condition",
+                                    "if_true": {
+                                      "type": "noise_threshold",
+                                      "noise": "minecraft:nether_state_selector",
+                                      "max_threshold": 0.75,
+                                      "min_threshold": 0
+                                    },
+                                    "then_run": {
+                                      "type": "block",
+                                      "result_state": {
+                                        "Name": "air"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:warped_nylium"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": [
+                                  "abgrund:sable_garden",
+                                  "abgrund:sable_plains",
+                                  "abgrund:jardin"
+                                ]
                               },
                               "then_run": {
                                 "type": "minecraft:block",
@@ -354,6 +418,7 @@
                                 "type": "minecraft:biome",
                                 "biome_is": [
                                   "abgrund:abyss",
+                                  "abgrund:dead_valley",
                                   "abgrund:dead_forest"
                                 ]
                               },
@@ -385,6 +450,110 @@
                               }
                             },
                             {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:cursed_valley"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": -0.1,
+                                      "min_threshold": -1,
+                                      "noise": "minecraft:surface"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:sequence",
+                                      "sequence": [
+                                        {
+                                          "type": "minecraft:condition",
+                                          "if_true": {
+                                            "type": "minecraft:noise_threshold",
+                                            "max_threshold": 1.7976931348623157e308,
+                                            "min_threshold": 0.0,
+                                            "noise": "minecraft:nether_state_selector"
+                                          },
+                                          "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                              "Name": "minecraft:soul_sand"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:soul_soil"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": 0.2,
+                                      "min_threshold": 0.1,
+                                      "noise": "minecraft:surface"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:block",
+                                      "result_state": {
+                                        "Name": "minecraft:coal_block"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:blackstone"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:unfactored_barrens"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": 0.2,
+                                      "min_threshold": 0,
+                                      "noise": "minecraft:surface"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:block",
+                                      "result_state": {
+                                        "Name": "minecraft:deepslate",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:smooth_basalt"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
                               "type": "condition",
                               "if_true": {
                                 "type": "biome",
@@ -409,6 +578,19 @@
                                   "Name": "minecraft:coal_block"
                                 }
                               }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
+                                "biome_is": ["abgrund:dripstone_desert"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:sand"
+                                }
+                              }
                             }
                           ]
                         },
@@ -424,6 +606,7 @@
                 }
               }
             },
+
             {
               "type": "minecraft:condition",
               "if_true": {
@@ -456,6 +639,7 @@
                                 "type": "minecraft:biome",
                                 "biome_is": [
                                   "abgrund:abyss",
+                                  "abgrund:dead_valley",
                                   "abgrund:dead_forest"
                                 ]
                               },
@@ -464,6 +648,59 @@
                                 "result_state": {
                                   "Name": "blackstone"
                                 }
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:cursed_valley"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": -0.1,
+                                      "min_threshold": -1,
+                                      "noise": "minecraft:surface"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:sequence",
+                                      "sequence": [
+                                        {
+                                          "type": "minecraft:condition",
+                                          "if_true": {
+                                            "type": "minecraft:noise_threshold",
+                                            "max_threshold": 1.7976931348623157e308,
+                                            "min_threshold": 0.0,
+                                            "noise": "minecraft:nether_state_selector"
+                                          },
+                                          "then_run": {
+                                            "type": "minecraft:block",
+                                            "result_state": {
+                                              "Name": "minecraft:soul_sand"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "minecraft:block",
+                                          "result_state": {
+                                            "Name": "minecraft:soul_soil"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:blackstone"
+                                    }
+                                  }
+                                ]
                               }
                             },
                             {
@@ -483,6 +720,33 @@
                               "type": "condition",
                               "if_true": {
                                 "type": "biome",
+                                "biome_is": ["abgrund:bluecap_forest"]
+                              },
+                              "then_run": {
+                                "type": "sequence",
+                                "sequence": [
+                                  {
+                                    "type": "condition",
+                                    "if_true": {
+                                      "type": "noise_threshold",
+                                      "noise": "minecraft:nether_state_selector",
+                                      "max_threshold": 0.75,
+                                      "min_threshold": 0
+                                    },
+                                    "then_run": {
+                                      "type": "block",
+                                      "result_state": {
+                                        "Name": "air"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
                                 "biome_is": ["abgrund:grenzen"]
                               },
                               "then_run": {
@@ -490,6 +754,42 @@
                                 "result_state": {
                                   "Name": "minecraft:obsidian"
                                 }
+                              }
+                            },
+                            {
+                              "type": "minecraft:condition",
+                              "if_true": {
+                                "type": "minecraft:biome",
+                                "biome_is": ["abgrund:unfactored_barrens"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:sequence",
+                                "sequence": [
+                                  {
+                                    "type": "minecraft:condition",
+                                    "if_true": {
+                                      "type": "minecraft:noise_threshold",
+                                      "max_threshold": 0.2,
+                                      "min_threshold": 0,
+                                      "noise": "minecraft:surface"
+                                    },
+                                    "then_run": {
+                                      "type": "minecraft:block",
+                                      "result_state": {
+                                        "Name": "minecraft:deepslate",
+                                        "Properties": {
+                                          "axis": "y"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "minecraft:block",
+                                    "result_state": {
+                                      "Name": "minecraft:smooth_basalt"
+                                    }
+                                  }
+                                ]
                               }
                             },
                             {
@@ -509,13 +809,29 @@
                               "type": "condition",
                               "if_true": {
                                 "type": "biome",
-                                "biome_is": ["abgrund:sable_garden",
-                                "abgrund:sable_plains"]
+                                "biome_is": [
+                                  "abgrund:sable_garden",
+                                  "abgrund:sable_plains",
+                                  "abgrund:jardin"
+                                ]
                               },
                               "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
                                   "Name": "minecraft:dirt"
+                                }
+                              }
+                            },
+                            {
+                              "type": "condition",
+                              "if_true": {
+                                "type": "biome",
+                                "biome_is": ["abgrund:dripstone_desert"]
+                              },
+                              "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:sand"
                                 }
                               }
                             }
@@ -524,7 +840,68 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:blackstone"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:stone_depth",
+                      "add_surface_depth": true,
+                      "offset": 0,
+                      "secondary_depth_range": 30,
+                      "surface_type": "floor"
+                    },
+                    "then_run": {
+                      "type": "sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:biome",
+                            "biome_is": ["abgrund:dripstone_desert"]
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:sandstone"
+                            }
+                          }
+                        },
+                        {
+                          "type": "condition",
+                          "if_true": {
+                            "type": "biome",
+                            "biome_is": ["abgrund:bluecap_forest"]
+                          },
+                          "then_run": {
+                            "type": "sequence",
+                            "sequence": [
+                              {
+                                "type": "condition",
+                                "if_true": {
+                                  "type": "noise_threshold",
+                                  "min_threshold": -0.5,
+                                  "max_threshold": 0,
+                                  "noise": "ice"
+                                },
+                                "then_run": {
+                                  "type": "block",
+                                  "result_state": {
+                                    "Name": "netherrack"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:blackstone"
+                                }
+                              }
+                            ]
                           }
                         }
                       ]
@@ -533,6 +910,7 @@
                 ]
               }
             },
+
             {
               "type": "minecraft:condition",
               "if_true": {
@@ -581,16 +959,17 @@
           ]
         }
       },
+
       {
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:vertical_gradient",
           "false_at_and_above": {
-            "absolute": 8
+            "absolute": 235
           },
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": 0
+            "absolute": 225
           }
         },
         "then_run": {
@@ -603,7 +982,11 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:biome",
-                    "biome_is": ["abgrund:grenzen", "abgrund:abyss_barrens"]
+                    "biome_is": [
+                      "abgrund:grenzen",
+                      "abgrund:abyss_barrens",
+                      "abgrund:unfactored_barrens"
+                    ]
                   },
                   "then_run": {
                     "type": "minecraft:block",
@@ -617,12 +1000,13 @@
             {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:deepslate"
+                "Name": "minecraft:blackstone"
               }
             }
           ]
         }
       },
+
       {
         "type": "minecraft:condition",
         "if_true": {
@@ -645,7 +1029,7 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:biome",
-                    "biome_is": ["abgrund:basalt_flats"]
+                    "biome_is": []
                   },
                   "then_run": {
                     "type": "minecraft:block",
@@ -661,6 +1045,8 @@
                     "biome_is": [
                       "abgrund:abyss",
                       "abgrund:dead_forest",
+                      "abgrund:dead_valley",
+                      "abgrund:cursed_valley",
                       "abgrund:grenzen"
                     ]
                   },
@@ -668,6 +1054,30 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:obsidian"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                      "abgrund:bluecap_forest",
+                      "abgrund:basalt_flats",
+                      "abgrund:dripstone_desert",
+                      "abgrund:unfactored_barrens",
+                      "abgrund:sable_garden",
+                      "abgrund:sable_plains",
+                      "abgrund:jardin"
+                    ]
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:deepslate",
+                      "Properties": {
+                        "axis": "y"
+                      }
                     }
                   }
                 },
@@ -681,20 +1091,6 @@
                     "type": "minecraft:block",
                     "result_state": {
                       "Name": "minecraft:coal_block"
-                    }
-                  }
-                },
-                {
-                  "type": "condition",
-                  "if_true": {
-                    "type": "biome",
-                    "biome_is": ["abgrund:sable_garden",
-                  "abgrund:sable_plains"]
-                  },
-                  "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:stone"
                     }
                   }
                 }

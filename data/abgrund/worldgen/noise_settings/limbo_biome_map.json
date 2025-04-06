@@ -38,9 +38,9 @@
                 "argument1": {
                   "type": "minecraft:y_clamped_gradient",
                   "from_value": 0.0,
-                  "from_y": -64,
+                  "from_y": 192,
                   "to_value": 1.0,
-                  "to_y": -40
+                  "to_y": 216
                 },
                 "argument2": {
                   "type": "minecraft:add",
@@ -53,9 +53,9 @@
                       "argument1": {
                         "type": "minecraft:y_clamped_gradient",
                         "from_value": 1.0,
-                        "from_y": 200,
+                        "from_y": 402,
                         "to_value": 0.0,
-                        "to_y": 246
+                        "to_y": 448
                       },
                       "argument2": 0
                     }
@@ -72,15 +72,7 @@
     "initial_density_without_jaggedness": 0,
     "lava": 0,
     "ridges": 0,
-    "temperature": {
-      "type": "minecraft:shifted_noise",
-      "noise": "minecraft:temperature",
-      "shift_x": "minecraft:shift_x",
-      "shift_y": 0.0,
-      "shift_z": "minecraft:shift_z",
-      "xz_scale": 0.25,
-      "y_scale": 0.0
-    },
+    "temperature": "abgrund:limbo/temperature",
     "vegetation": {
       "type": "minecraft:shifted_noise",
       "noise": "minecraft:vegetation",
@@ -159,7 +151,7 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:biome",
-                    "biome_is": ["abgrund:tech/limbo_lower"]
+                    "biome_is": ["abgrund:abyss"]
                   },
                   "then_run": {
                     "type": "minecraft:block",

@@ -85,7 +85,7 @@ The name was also shamelessly stolen from **THE DECAYED**. I ain't apologisin'.
 The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 
  **Basalt Flats**
-> Ironically rough landscape made of basalt with semi-frequent withered trees. Iron generates relatively frequently here, and there are some carvers littered around. Skeletons love it here
+> Ironically rough landscape made of basalt with semi-frequent withered trees. Iron generates relatively frequently here, and there are some carvers littered around. Skeletons love it here.
 
 **Sable Garden**
 > Like the Pale Garden but much more peaceful. No creaking hearts, just dead dreams! And phantoms. Generates these lovely structures:

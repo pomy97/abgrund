@@ -1,0 +1,204 @@
+{
+  "name": "abgrund:temple/decoration",
+  "fallback": "empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_1",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_2",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_3",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_4",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_5",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_6",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_7",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_8",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_9",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_10",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_11",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pillar_12",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_1",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_2",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_3",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_4",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_5",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/pool_6",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/wall_1",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/wall_2",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/wall_3",
+        "processors": "empty"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/decoration/wall_4",
+        "processors": "empty"
+      },
+      "weight": 1
+    }
+  ]
+}

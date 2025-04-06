@@ -1,6 +1,6 @@
 {
     "condition": "location_check",
     "predicate": {
-        "biomes": "abgrund:tech/limbo_lower"
+        "biomes": "abgrund:abyss"
     }
 }
