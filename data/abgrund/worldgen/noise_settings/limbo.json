@@ -2,12 +2,9 @@
   "default_block": {
     "Name": "minecraft:stone"
   },
-  "sea_level": 10,
+  "sea_level": 0,
   "default_fluid": {
-    "Name": "minecraft:water",
-    "Properties": {
-      "level": "0"
-    }
+    "Name": "minecraft:air"
   },
   "aquifers_enabled": false,
   "ore_veins_enabled": true,
@@ -1025,19 +1022,6 @@
             {
               "type": "minecraft:sequence",
               "sequence": [
-                {
-                  "type": "minecraft:condition",
-                  "if_true": {
-                    "type": "minecraft:biome",
-                    "biome_is": []
-                  },
-                  "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:basalt"
-                    }
-                  }
-                },
                 {
                   "type": "minecraft:condition",
                   "if_true": {
