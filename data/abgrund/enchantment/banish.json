@@ -22,7 +22,7 @@
         }
       }
     ],
-    "post_attack": [],
+
     "minecraft:tick": [
       {
         "effect": {
@@ -62,6 +62,16 @@
           "predicate": {
             "biomes": "#abgrund:banish_effective"
           }
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "abgrund:banish/hit"
         }
       }
     ]

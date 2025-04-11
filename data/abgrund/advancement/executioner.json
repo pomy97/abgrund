@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "enchanted_book",
+      "components": {
+        "stored_enchantments": {
+          "abgrund:banish": 1
+        }
+      }
+    },
+    "description": "Banish something to Limbo",
+    "title": "...and Executioner",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "banish": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "abgrund:jury"
+}
