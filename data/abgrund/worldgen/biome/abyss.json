@@ -76,12 +76,23 @@
     "enderman": {
       "charge": 0.7,
       "energy_budget": 0.15
+    },
+    "husk": {
+      "charge": 2,
+      "energy_budget": 0.17
     }
   },
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "husk",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
     "misc": [],
     "monster": [
       {

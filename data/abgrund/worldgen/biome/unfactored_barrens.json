@@ -95,7 +95,15 @@
     ]
   ],
   "spawn_costs": {
+    "phantom": {
+      "charge": 2,
+      "energy_budget": 0.17
+    },
     "enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "zombie": {
       "charge": 0.7,
       "energy_budget": 0.15
     }
@@ -109,6 +117,12 @@
       {
         "type": "enderman",
         "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "zombie",
+        "maxCount": 3,
         "minCount": 1,
         "weight": 10
       }

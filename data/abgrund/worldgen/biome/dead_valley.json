@@ -47,9 +47,7 @@
     ["abgrund:senken/lava_lake_underground"],
     [],
     [],
-    [
-      "abgrund:senken/water_delta"
-    ],
+    ["abgrund:senken/water_delta"],
     [
       "minecraft:ore_gravel",
       "minecraft:ore_tuff",
@@ -70,19 +68,31 @@
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_nether",
       "abgrund:senken/patch_dead_bush",
-      "abgrund:senken/patch_dead_coral"
+      "abgrund:senken/patch_dead_coral",
+      "abgrund:senken/pale_bush"
     ]
   ],
   "spawn_costs": {
     "enderman": {
       "charge": 0.7,
       "energy_budget": 0.15
+    },
+    "husk": {
+      "charge": 2,
+      "energy_budget": 0.17
     }
   },
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "husk",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
     "misc": [],
     "monster": [
       {

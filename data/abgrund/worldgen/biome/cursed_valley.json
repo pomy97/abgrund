@@ -76,6 +76,10 @@
     "enderman": {
       "charge": 0.7,
       "energy_budget": 0.15
+    },
+    "husk": {
+      "charge": 2,
+      "energy_budget": 0.17
     }
   },
   "spawners": {
