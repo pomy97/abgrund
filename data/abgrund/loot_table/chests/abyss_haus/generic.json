@@ -11,6 +11,10 @@
         {
           "type": "loot_table",
           "value": "abgrund:chests/abyss_haus/supply"
+        },
+        {
+          "type": "loot_table",
+          "value": "abgrund:chests/abyss_haus/map"
         }
       ]
     }
