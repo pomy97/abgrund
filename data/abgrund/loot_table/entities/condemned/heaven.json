@@ -8,7 +8,7 @@
           "type": "minecraft:loot_table",
           "value": "abgrund:item/essence_of_abgrund",
           "quality": 4,
-          "weight": 10
+          "weight": 7
         },
         {
           "type": "item",
@@ -27,26 +27,8 @@
         },
         {
           "type": "item",
-          "name": "iron_block",
-          "quality": 1,
-          "weight": 20
-        },
-        {
-          "type": "item",
-          "name": "enchanted_golden_apple",
-          "quality": 10,
-          "weight": 2
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "item",
           "name": "diamond",
-          "quality": 4,
+          "quality": 10,
           "weight": 1
         },
         {
@@ -63,7 +45,7 @@
             }
           ],
           "quality": 3,
-          "weight": 1
+          "weight": 10
         },
         {
           "type": "item",
@@ -78,7 +60,7 @@
             }
           ],
           "quality": 2,
-          "weight": 2
+          "weight": 20
         },
         {
           "type": "item",
@@ -93,7 +75,7 @@
             }
           ],
           "quality": 1,
-          "weight": 2
+          "weight": 15
         }
       ],
       "rolls": 1.0
