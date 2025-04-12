@@ -26,7 +26,8 @@
                     }
                   ]
                 },
-                "item_model": "ominous_bottle"
+                "item_model": "ominous_bottle",
+                "max_stack_size": 16
               }
             },
             {
