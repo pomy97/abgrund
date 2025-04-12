@@ -1,6 +1,6 @@
 #tp to overlands
 particle minecraft:dust{color:1,scale:2} ~ ~1 ~ 1 1 1 1 500
-execute in minecraft:overworld store success storage abgrund:temp spawn_success byte 1 run spreadplayers 0 0 0 10 false @s
+execute in minecraft:overworld store success storage abgrund:temp spawn_success byte 1 run spreadplayers 0 0 0 1000 false @s
 
 #fallback
 execute unless data storage abgrund:temp {spawn_success:1b} run execute in minecraft:overworld run tp @s 0 320 0
