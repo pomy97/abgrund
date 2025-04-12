@@ -42,7 +42,17 @@
       "probability": 0.118093334
     }
   },
-  "features": [[], [], [], [], [], ["abgrund:ore_crying_obsidian"], [], [], []],
+  "features": [
+    [],
+    ["abgrund:oberer/amethyst_geode"],
+    [],
+    [],
+    [],
+    ["abgrund:ore_crying_obsidian"],
+    [],
+    [],
+    []
+  ],
   "spawn_costs": {
     "skeleton": {
       "charge": 1.7,

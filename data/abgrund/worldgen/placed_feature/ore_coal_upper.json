@@ -1,12 +1,12 @@
 {
-  "feature": "abgrund:ore_crying_obsidian",
+  "feature": "abgrund:ore_coal",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 256
+      "count": 30
     },
     {
-      "type": "in_square"
+      "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:height_range",
@@ -16,7 +16,7 @@
           "below_top": 0
         },
         "min_inclusive": {
-          "above_bottom": 0
+          "absolute": 448
         }
       }
     },

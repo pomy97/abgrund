@@ -9,8 +9,8 @@
             "Name": "minecraft:deepslate_iron_ore"
           },
           "target": {
-            "predicate_type": "minecraft:tag_match",
-            "tag": "abgrund:oberer_ore_replaceables"
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:smooth_basalt"
           }
         }
       ]

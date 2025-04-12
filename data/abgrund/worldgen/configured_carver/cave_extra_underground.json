@@ -3,7 +3,7 @@
   "config": {
     "debug_settings": {
       "air_state": {
-        "Name": "minecraft:birch_button",
+        "Name": "minecraft:oak_button",
         "Properties": {
           "face": "wall",
           "facing": "north",
@@ -38,7 +38,7 @@
     "lava_level": {
       "above_bottom": -8
     },
-    "probability": 0.15,
+    "probability": 0.07,
     "replaceable": "#abgrund:limbo_carver_replaceables",
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
@@ -48,7 +48,7 @@
     "y": {
       "type": "minecraft:uniform",
       "max_inclusive": {
-        "absolute": 450
+        "absolute": 300
       },
       "min_inclusive": {
         "above_bottom": 8

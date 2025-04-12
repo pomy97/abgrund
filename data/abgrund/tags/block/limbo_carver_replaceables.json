@@ -1,12 +1,17 @@
 {
     "values": [
-      "#minecraft:base_stone_overworld",
+      "#abgrund:base_stone_limbo",
       "#minecraft:dirt",
       "#minecraft:sand",
-      "#minecraft:terracotta",
-      "#minecraft:iron_ores",
-      "#minecraft:copper_ores",
       "#minecraft:snow",
+      "#minecraft:coal_ores",
+      "#minecraft:gold_ores",
+      "#minecraft:iron_ores",
+      "#minecraft:lapis_ores",
+      "#minecraft:copper_ores",
+      "#minecraft:diamond_ores",
+      "#minecraft:emerald_ores",
+      "#minecraft:redstone_ores",
       "minecraft:water",
       "minecraft:gravel",
       "minecraft:suspicious_gravel",
@@ -15,10 +20,6 @@
       "minecraft:calcite",
       "minecraft:packed_ice",
       "minecraft:raw_iron_block",
-      "minecraft:raw_copper_block",
-      "obsidian",
-      "crying_obsidian",
-      "blackstone",
-      "coal_block"
+      "minecraft:raw_copper_block"
     ]
   }

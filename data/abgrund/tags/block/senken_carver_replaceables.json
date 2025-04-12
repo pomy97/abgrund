@@ -1,6 +1,6 @@
 {
   "values": [
-    "#minecraft:base_stone_overworld",
+    "#abgrund:base_stone_limbo",
     "#minecraft:dirt",
     "#minecraft:sand",
     "#minecraft:terracotta",
@@ -15,6 +15,10 @@
     "minecraft:calcite",
     "minecraft:packed_ice",
     "minecraft:raw_iron_block",
-    "minecraft:raw_copper_block"
+    "minecraft:raw_copper_block",
+    "deepslate",
+    "blackstone",
+    "coal_block",
+    "tuff"
   ]
 }

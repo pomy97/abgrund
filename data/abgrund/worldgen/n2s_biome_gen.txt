@@ -1,9 +1,0 @@
-Continentalness = Is it Senken or Oberer? 
-    Lower = Senken
-    higher = Oberer
-Erosion = Is it elevated? (in Oberer. means nothing in Senken)
-    Lower = flat
-    higher = elevated
-Temperature = take a guess
-Humidity = How foliaged is it?
-    lower = BARREN WASTELAND, higher = forest

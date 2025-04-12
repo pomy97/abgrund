@@ -1,5 +1,10 @@
 {
-  "carvers": "minecraft:nether_cave",
+  "carvers": [
+    "abgrund:cave",
+    "abgrund:canyon",
+    "abgrund:cave_extra_underground",
+    "abgrund:cave_large"
+  ],
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
@@ -39,15 +44,36 @@
   "features": [
     [],
     [],
-    [],
+    ["abgrund:oberer/amethyst_geode"],
     [],
     [],
     [],
     [],
     [
-      "minecraft:ore_debris_small"
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff",
+      "abgrund:ore_coal_upper",
+      "abgrund:ore_coal_lower",
+      "abgrund:ore_iron_upper",
+      "abgrund:ore_iron_middle",
+      "abgrund:ore_iron_small",
+      "abgrund:ore_gold",
+      "abgrund:ore_gold_lower",
+      "abgrund:ore_redstone",
+      "abgrund:ore_redstone_lower",
+      "abgrund:ore_diamond",
+      "abgrund:ore_diamond_medium",
+      "abgrund:ore_diamond_large",
+      "abgrund:ore_diamond_buried",
+      "abgrund:ore_lapis",
+      "abgrund:ore_lapis_buried",
+      "abgrund:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
-    [],
     [
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
@@ -57,12 +83,13 @@
       "minecraft:warped_forest_vegetation",
       "minecraft:nether_sprouts",
       "minecraft:twisting_vines",
-      "abgrund:oberer/shroomlight_vine"
-    ]
+      "abgrund:oberer/shroomlight_vine",
+      "glow_lichen"
+    ],
+    []
   ],
   "has_precipitation": false,
-  "spawn_costs": {
-  },
+  "spawn_costs": {},
   "spawners": {
     "ambient": [],
     "axolotls": [],

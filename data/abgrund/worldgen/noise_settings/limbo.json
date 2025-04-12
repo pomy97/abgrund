@@ -1,6 +1,9 @@
 {
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "minecraft:deepslate",
+    "Properties": {
+      "axis": "y"
+    }
   },
   "sea_level": 0,
   "default_fluid": {
@@ -594,7 +597,10 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:stone"
+                            "Name": "minecraft:deepslate",
+                            "Properties": {
+                              "axis": "y"
+                            }
                           }
                         }
                       ]
@@ -1042,30 +1048,6 @@
                   }
                 },
                 {
-                  "type": "minecraft:condition",
-                  "if_true": {
-                    "type": "minecraft:biome",
-                    "biome_is": [
-                      "abgrund:bluecap_forest",
-                      "abgrund:basalt_flats",
-                      "abgrund:dripstone_desert",
-                      "abgrund:unfactored_barrens",
-                      "abgrund:sable_garden",
-                      "abgrund:sable_plains",
-                      "abgrund:jardin"
-                    ]
-                  },
-                  "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:deepslate",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    }
-                  }
-                },
-                {
                   "type": "condition",
                   "if_true": {
                     "type": "biome",
@@ -1079,12 +1061,6 @@
                   }
                 }
               ]
-            },
-            {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:obsidian"
-              }
             }
           ]
         }
