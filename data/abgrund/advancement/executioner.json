@@ -4,7 +4,7 @@
       "id": "enchanted_book",
       "components": {
         "stored_enchantments": {
-          "abgrund:banish": 1
+          "abgrund:judgement": 1
         }
       }
     },

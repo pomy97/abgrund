@@ -1,0 +1,102 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "abgrund:item/essence_of_abgrund",
+          "quality": 4,
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "quality": 2,
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "iron_block",
+          "quality": 1,
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "enchanted_golden_apple",
+          "quality": 10,
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "diamond",
+          "quality": 4,
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "potion_contents": {
+                  "potion": "strong_regeneration"
+                }
+              }
+            }
+          ],
+          "quality": 3,
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "glowstone_dust",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "quality": 2,
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "quality": 1,
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

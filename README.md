@@ -5,8 +5,9 @@ A fancy datapack that adds Limbo to Minecraft. Heavilly insipired by [THE DECAYE
 ### Getting into Limbo
 - Two methods.
   - You can die and get banished to Limbo
-    - If **Universal Banishment** is enabled (which is by default), you will have a chance to be banished to Limbo upon dying through any means
-    - If **Universal Banishment** is disabled, you have a chance of getting banished whenever you die by falling out of the world.
+    - Dying from "Fell out of the world" damage or "Left the confines of this world" damage will banish you to Limbo.
+    - Dying from any means in Hardcore mode will banish you to Limbo.
+    - If **Universal Banishment** is enabled (which is by default), you will also have a chance to be banished to Limbo upon dying through any means.
   - You can use **Essence of Abgrund**, which is only obtainable once you have visited Limbo.
 ### Getting banished to Limbo
 - Every time you die, you have a chance to be banished to Limbo.
@@ -15,45 +16,45 @@ A fancy datapack that adds Limbo to Minecraft. Heavilly insipired by [THE DECAYE
   - If Hardcore mode is enabled, the chance is 100%.
 - If you die whilst banished, you will respawn in Limbo
   - If Hardcore mode is enabled, you don't respawn. If you manage to escape Limbo and unbanish yourself, you still won't be able to respawn. Limbo is a 1-time-use safety net when it comes to Hardcore Mode.
-- Note that getting banished is irreversable. You can't get unbanished.
+- Note that getting banished is irreversable. You can't get unbanished (configureable).
 ### Getting into Limbo without being banished
 - If you use **Essence of Abgrund**, you can willingly teleport into and out of Limbo *without* being banished. In this case, if you die, you will simply respawn (unless you're in Hardcore) outside of Limbo.
 - You will keep all of your items when travelling between the two planes this way.
-- Note that this item is a one-time use and is consumed upon use. Make sure you have some extra... or else you're gonna have a fun time leaving.
+- Note that this item is a one-time use and is consumed upon use. Make sure you have some extra...
 ### Escaping Limbo
-- You must use Essence of Abgrund whilst in Jardin to escape. THis will teleport you somewhere random in the Overworld.
+- You must use Essence of Abgrund whilst in Jardin to escape. This will teleport you somewhere random in the Overworld within 1000 blocks of spawn (or at 0, 0 in the sky if there isn't a suitable solid surface around).
 - Upon escape, you will still respawn in Limbo upon death, even if reset your spawnpoint. However, if you jump into the end portal, you will arrive at your spawnpoint (if you reset it) or at worldspawn.
 
 ---
----
----
 # Features
-### Banish
-- Treasure Enchantment
-- Axes only
+
+### Judgement
+- Treasure enchantment
+- Only applies to axes
 - Obtainable ONLY in Limbo
-- Mutually exclusive with Sharpness (and other weapon enchantments from Enchancement)
+- Non-renewable
 - **ABILITY**
   - Slain players will be banished to Limbo until they can properly escape
-  - If it strikes a shield 
-    - Makes cool sound upon striking
-    - KB Explosion that knocks everything back
-  - Killing any other mob* with the axe can cause them to drop Essence of Abgrund under the following conditions
-    - The mob is killed in a dark biome (one of the following)
-      - Abyss
-      - Abyss Barrens
-      - Dead Forest
-      - Withered Forest (Incendium)
-      - Void Barrens (Nullscape)
-      - Deep Dark
-    - The mob is NOT native to Limbo UNLESS the mob is only found in Jardin
-    - The mob spawns naturally
+  - Holding a weapon enchanted with Judgement allows one to see Condemned Mobs
+  - Can BANISH certain things (players, wandering traders (traders configureable)) to Limbo
+    - This will play the long aishiteitanoni animation
+  - Deals additional damage to Condemned Mobs
 - **DRAWBACKS**
-  - Only deals 50% of the weapon's base damage
-  - Mutually exclusive with Sharpness and Beheading (if Enchancement is installed)
+  - Mutually exclusive with: 
+    - Sharpness
+    - Smite
+    - Bane of Arthropods 
+    - Beheading (if Enchancement is installed)
+### Condemned Mobs
+- Hostile/neutral monsters (as don't exist on Earth) have a small chance to be marked as Condemned.
+- These mobs, when slain by someone using Judgement can drop certain things, depending on the fate they are condemned to.
+	- **Heaven mobs can only spawn in Limbo** and drop items relating to Heaven, Salvation, Light, or other holy things. Also sprinkle some goodies in there too so there's a motive to kill them. **They can also drop Essence of Abgrund.** They can be identified by bright particles over their head.
+	- **Hell mobs can only spawn in Limbo** and drop items relating to Hell, THE NETHER (insert Jack Black here), Darkness, or other unholy things. Also sprinkle some goodies in there too so there's a motive to kill them. **They cannot drop Essence of Abgrund.** They can be identified by red (or fire, or anything hell-like you can think of) particles over their head.
+	- **Limbo mobs** (not to be confused with mobs that naturally spawn in Limbo) **can spawn anywhere BUT Limbo.** They are significantly rarer than the other two Condemned, being that they can spawn ANYWHERE. **They ONLY drop Essence of Abgrund.** They can be identified by bright particles over their head.
+- Killing these mobs normally does nothing. You have to kill them with Judgement to get any reward.
+  - Upon being killed with Judgement, that aishiteitanoni animation will play.
 ### Essence of Abgrund
-- Method for players to transfer into and out of Limbo.
-  - Can only be used in The Overworld OR Jardin  
+- Method for players to transfer into and out of Limbo. 
 
 ---
 ---
@@ -69,16 +70,16 @@ This is the lower section of Limbo. It is very dark with very few signs of life.
 > A barren wasteland populated only by enderman and basalt trees. There are some small structures littered around the place with some essential supplies. This is where the player spawns upon entering Limbo.
 
 **Cursed Valley**
-> This place has it's own spot for souls of the damned. Streaks of Soul Sand & Soul Soil snake across the landscape. You can find waiting rooms here with some residents... still waiting for judgement.
+> This place has it's own spot for souls of the damned. Streaks of Soul Sand & Soul Soil snake across the landscape. Condemned mobs are more common here.
 
 **Dead Forest**
 > Like the Abyss Wastes, but with much more trees. You can find some groups of houses here, as well as some small camps. There's a lot more foliage here in general, too.
 
 **Abyss Barrens**
-> Found deep into Senken. Nothing spawns, nor is there anything interesting to be found. It is a very inhospitable land. I'll let you see why. Hint: the terrain function I used to generate it is called `erosion_on_crack`. It is a good source of coal though. And Ancient Debris, if you're willing to dig through the obsidian.
+> Found deep into Senken. Nothing spawns, nor is there anything interesting to be found. It is a very inhospitable land. I'll let you see why. Hint: the terrain function I used to generate it is called `erosion_on_crack`. It is a good source of coal though.
 
 ## Grenzen
-Just one biome. Obsidian top to bottom, ain't no nothing getting over here. It serves as the dividing line between Senken and Oberer. There's no resources in this biome, sans some Ancient Debris hidden in the obsidian, if you really want to mine for it.  
+Just one biome. Obsidian top to bottom, ain't no nothing getting over here. It serves as the dividing line between Senken and Oberer. There's no resources in this biome.
 The name was also shamelessly stolen from **THE DECAYED**. I ain't apologisin'.
 
 ## Oberer
@@ -103,66 +104,10 @@ The upper section of Limbo. All the cool kids are in the upper section of Limbo.
 
 **Unfactored Barrens**
 > Very inland. Remember the Abyss Barrens? These are a lot more fun.  
-> Obsidian monoliths with absolutely zero care for order. Plenty of lava, obsidian spiked everywhere. The core of the biome comprises of a LOT of Obsidian. Great source of Ancient Debris... if you really want to mine for it.
+> Obsidian monoliths with absolutely zero care for order. Plenty of lava, obsidian spiked everywhere. The core of the biome comprises of a LOT of Obsidian.
 
 **Jardin**
 > Very inland in Oberer. Pretty much the flower garden from THE DECAYEDD. I totally just ripped off the series here. This biome is incredibly offputting when compared to the surroundings. Not even Limbo itself seems to accept that it's a part the dimension. Generates occasional oak trees and spawns some passive overworld mobs.  
-> You need this place to escape.
-
-# TODO LIST
-
-## BIOMES
-
-### Lower Limbo
-- [ ] **Abyss**
-
-- [ ] **Abyss Barrens**
-- [ ] **Dead Forest**
-  - Add Structures
-  - House
-  - Altar
-- [X] **Grenzen**
-### Upper Limbo
-- [ ] **Basalt Flats**
-  - Structures?
-  - Caves
-
-- [ ] **Obsidian Wastes**
-  - Kinda like the basalt deltas but Obsidian
-  - 100% Obsidian (and co)
-  - Ancient Debris spawns here w/ spiked rates VS the nether
-  - Obsidian from top of world to bottom (like Grenzen)
-
-- [ ] **Sable Garden**
-  - Pale Garden but sparse
-  - Some lights in the trees instead of Creaking Hearts. No creakings here!
-  - Structures
-    - Cabin
-    - Abandoned village
-
-- [ ] **Jardin**
-  - Continentalness = 1 (inland to the max)
-  - The flower garden from THE DECAYEDD
-  - Features:
-    - Every kind of normal short flower
-    - Occasional oak tree
-  - Sky is dark blue with an orangish fog
-  - Structures
-    - Something to help with escaping Limbo
-
-- [ ] **Sable Plains**
-  - Hardly forested version of the Sable Garden
-  - TONS OF GRASS
-  - Structures
-    - Abandoned village
-  - Blackstone Boulders
-
-- [ ] **Dripstone Flats**
-  - Dripstone cave but surface
-  - Boosted copper rates
-
-- [ ] **Bluecap Forest**
-  - Warped Forest but sparse and with big boi mushrooms
 
 
 for you peep digging through the code, 4864770 = ABGRUND

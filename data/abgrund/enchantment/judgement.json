@@ -1,5 +1,8 @@
 {
-  "description": "Banish",
+  "description": {
+    "translate": "enchantment.abgrund.judgement",
+    "fallback": "Judgement"
+  },
   "supported_items": "#axes",
   "anvil_cost": 10,
   "max_cost": {
@@ -22,18 +25,11 @@
         }
       }
     ],
-
-    "minecraft:tick": [
+    "tick": [
       {
         "effect": {
           "type": "run_function",
-          "function": "abgrund:banish/active"
-        },
-        "requirements": {
-          "condition": "location_check",
-          "predicate": {
-            "biomes": "#abgrund:banish_effective"
-          }
+          "function": "abgrund:judgement/active"
         }
       }
     ],
@@ -41,26 +37,13 @@
       {
         "effect": {
           "type": "add",
-          "value": 3
+          "value": 5
         },
         "requirements": {
-          "condition": "location_check",
+          "condition": "entity_properties",
+          "entity": "this",
           "predicate": {
-            "biomes": "#abgrund:banish_effective"
-          }
-        }
-      }
-    ],
-    "minecraft:hit_block": [
-      {
-        "effect": {
-          "type": "run_function",
-          "function": "abgrund:banish/heal"
-        },
-        "requirements": {
-          "condition": "location_check",
-          "predicate": {
-            "biomes": "#abgrund:banish_effective"
+            "nbt": "{Tags:[\"abg.condemned\"]}"
           }
         }
       }
@@ -71,10 +54,10 @@
         "enchanted": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "abgrund:banish/hit"
+          "function": "abgrund:judgement/hit"
         }
       }
     ]
   },
-  "exclusive_set": "#abgrund:exclusive_set/banish"
+  "exclusive_set": "#abgrund:exclusive_set/judgement"
 }

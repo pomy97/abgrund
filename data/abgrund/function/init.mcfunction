@@ -3,7 +3,7 @@
 #universal scoreboards
 scoreboard objectives add uthipacks.installed dummy
 scoreboard players set Abgrund uthipacks.installed 1
-# Banish Enchant
+# judgement Enchant
 scoreboard objectives add abg.health health
 scoreboard objectives add abg.feed_cool dummy
 # misc
