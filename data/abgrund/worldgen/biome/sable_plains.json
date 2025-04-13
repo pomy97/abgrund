@@ -91,7 +91,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "husk",
+        "type": "zombie",
         "maxCount": 3,
         "minCount": 1,
         "weight": 1

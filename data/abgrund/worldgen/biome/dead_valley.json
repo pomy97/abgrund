@@ -47,7 +47,7 @@
     ["abgrund:senken/lava_lake_underground"],
     [],
     [],
-    ["abgrund:senken/water_delta"],
+    [],
     [
       "minecraft:ore_gravel",
       "minecraft:ore_tuff",
@@ -69,7 +69,8 @@
       "minecraft:brown_mushroom_nether",
       "abgrund:senken/patch_dead_bush",
       "abgrund:senken/patch_dead_coral",
-      "abgrund:senken/pale_bush"
+      "abgrund:senken/pale_bush",
+      "abgrund:senken/water_delta"
     ]
   ],
   "spawn_costs": {
@@ -77,7 +78,7 @@
       "charge": 0.7,
       "energy_budget": 0.15
     },
-    "husk": {
+    "zombie": {
       "charge": 2,
       "energy_budget": 0.17
     }
@@ -87,7 +88,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "husk",
+        "type": "zombie",
         "maxCount": 3,
         "minCount": 1,
         "weight": 10

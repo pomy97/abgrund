@@ -23,7 +23,11 @@ execute in abgrund:limbo_biome_map run setblock 0 0 0 bedrock
 #worldgen things
 function uthi:scoreboard_presets/worldgen/mob_caps
 scoreboard objectives add abg.mob_caps dummy
+scoreboard players set $rabbit_max abg.mob_caps 30
+scoreboard players set %limbo_creature abg.mob_caps 0
+scoreboard players set %jardin_creature abg.mob_caps 0
+scoreboard players set %rabbit abg.mob_caps 0
 
 # START THE CLOCKS
 schedule function abgrund:clocks/main 1t replace
-schedule function abgrund:clocks/10s 10s replace
+schedule function abgrund:clocks/7s 1t replace

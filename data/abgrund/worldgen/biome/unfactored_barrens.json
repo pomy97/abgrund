@@ -111,18 +111,18 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+    {
+      "type": "zombie",
+      "maxCount": 3,
+      "minCount": 1,
+      "weight": 10
+    }],
     "misc": [],
     "monster": [
       {
         "type": "enderman",
         "maxCount": 1,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "zombie",
-        "maxCount": 3,
         "minCount": 1,
         "weight": 10
       }
