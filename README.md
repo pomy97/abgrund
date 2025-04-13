@@ -114,3 +114,10 @@ for you peep digging through the code, 4864770 = ABGRUND
 
 The Abgrund © 2025 by [pomy97](https://modrinth.com/user/pomy97) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
 The only places I upload my projects are on [Curseforge](https://legacy.curseforge.com/members/pomy97/projects) and [Modrinth](https://modrinth.com/user/pomy97)
+
+# N2S
+random patch in Dead Valley (remove pale oak moss decoration from bush)
+first thought was: how do I get my butt outta senken? not: i need a map to find the temple
+shroom vines look weird spawning on stone - do check for WARPED FUNGUS
+no food in dripstone desert or bluecaps
+make rabbits white so they're easier to see. they camoflague too well
