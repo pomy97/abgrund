@@ -90,7 +90,7 @@
           "parameters": {
             "temperature": [-0.7,-0.3],
             "humidity": [-1, 0],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -102,7 +102,7 @@
           "parameters": {
             "temperature": [-0.7,-0.3],
             "humidity": [0, 1],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -114,7 +114,7 @@
           "parameters": {
             "temperature": [-0.3, 0.3],
             "humidity": [-1, 0],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -126,7 +126,7 @@
           "parameters": {
             "temperature": [-0.3, 0.3],
             "humidity": [0, 1],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -138,7 +138,7 @@
           "parameters": {
             "temperature": [0.3, 0.7],
             "humidity": [-1, 0],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -150,7 +150,7 @@
           "parameters": {
             "temperature": [0.3, 0.7],
             "humidity": [0, 1],
-            "continentalness": [-1.4, -0.13],
+            "continentalness": [-1.4, -0.15],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -167,7 +167,7 @@
           "parameters": {
             "temperature": [-0.7,-0.3],
             "humidity": [-1, 0],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -179,7 +179,7 @@
           "parameters": {
             "temperature": [-0.7,-0.3],
             "humidity": [0, 1],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -191,7 +191,7 @@
           "parameters": {
             "temperature": [-0.3, 0.3],
             "humidity": [-1, 0],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -203,7 +203,7 @@
           "parameters": {
             "temperature": [-0.3, 0.3],
             "humidity": [0, 1],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -215,7 +215,7 @@
           "parameters": {
             "temperature": [0.3, 0.7],
             "humidity": [-1, 0],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
@@ -227,7 +227,7 @@
           "parameters": {
             "temperature": [0.3, 0.7],
             "humidity": [0, 1],
-            "continentalness": [-0.13, 0.05],
+            "continentalness": [-0.15, 0.05],
             "erosion": 0,
             "weirdness": 0,
             "depth": 0,
