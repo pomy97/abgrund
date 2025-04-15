@@ -24,7 +24,7 @@
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abyss"
+            "sound_id": "abgrund:music.limbo.dripstone_desert"
           },
           "min_delay": 12000,
           "max_delay": 24000,
@@ -81,8 +81,12 @@
     ["abgrund:oberer/dripstone"],
     [],
     [
+
       "minecraft:glow_lichen",
       "patch_dead_bush",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "patch_dead_bush_2",
       "patch_cactus_desert"
     ],
@@ -90,22 +94,33 @@
   ],
   "spawn_costs": {
     "skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "wither_skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "phantom": {
       "charge": 3,
+      "energy_budget": 0.17
+    },
+    "zombie": {
+      "charge": 2,
       "energy_budget": 0.17
     }
   },
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "zombie",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
     "misc": [],
     "monster": [
       {

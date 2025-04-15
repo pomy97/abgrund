@@ -25,7 +25,9 @@
           "max_delay": 24000,
           "min_delay": 12000,
           "replace_current_music": false,
-          "sound": "minecraft:music.nether.warped_forest"
+          "sound": {
+            "sound_id": "abgrund:music.limbo.bluecap_forest"
+          }
         },
         "weight": 1
       }
@@ -45,7 +47,6 @@
     [],
     [],
     ["abgrund:oberer/amethyst_geode"],
-    [],
     [],
     [],
     [],
@@ -74,10 +75,11 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [],
+    ["minecraft:spring_lava"],
     [
-      "minecraft:spring_lava",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "abgrund:oberer/bluecap",
       "abgrund:oberer/warped_fungi",
       "minecraft:warped_forest_vegetation",

@@ -9,6 +9,9 @@ execute as @s[type=zombie,predicate=abgrund:biome/sable_plains] if score %limbo_
 execute as @s[type=zombie,predicate=abgrund:location/senken] if score %rabbit abg.mob_caps < $rabbit_max abg.mob_caps run function abgrund:entity/worldgen/senken/rabbit/pass
 execute as @s[type=zombie,predicate=abgrund:location/senken] if score %rabbit abg.mob_caps >= $rabbit_max abg.mob_caps run function abgrund:entity/worldgen/senken/rabbit/fail
 
+execute as @s[type=zombie,predicate=abgrund:biome/dripstone_flats] if score %rabbit abg.mob_caps < $rabbit_max abg.mob_caps run function abgrund:entity/worldgen/dripstone_flats/rabbit/pass
+execute as @s[type=zombie,predicate=abgrund:biome/dripstone_flats] if score %rabbit abg.mob_caps >= $rabbit_max abg.mob_caps run function abgrund:entity/worldgen/dripstone_flats/rabbit/fail
+
 execute as @s[type=zombie,predicate=abgrund:biome/jardin] if score %jardin_creature abg.mob_caps < $creature_max uthi.mob_caps run function abgrund:entity/worldgen/jardin/sheep/pass
 execute as @s[type=zombie,predicate=abgrund:biome/jardin] if score %jardin_creature abg.mob_caps >= $creature_max uthi.mob_caps run function abgrund:entity/worldgen/jardin/sheep/fail
 execute as @s[type=piglin,predicate=abgrund:biome/jardin] if score %jardin_creature abg.mob_caps < $creature_max uthi.mob_caps run function abgrund:entity/worldgen/jardin/cow/pass

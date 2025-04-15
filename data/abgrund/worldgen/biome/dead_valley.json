@@ -19,7 +19,7 @@
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abyss"
+            "sound_id": "abgrund:music.limbo.dead_valley"
           },
           "min_delay": 12000,
           "max_delay": 24000,
@@ -67,6 +67,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "abgrund:senken/patch_dead_bush",
       "abgrund:senken/patch_dead_coral",
       "abgrund:senken/pale_bush",

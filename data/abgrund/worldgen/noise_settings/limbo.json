@@ -894,7 +894,10 @@
                                 "then_run": {
                                   "type": "block",
                                   "result_state": {
-                                    "Name": "netherrack"
+                                    "Name": "deepslate",
+                                    "Properties": {
+                                      "axis": "y"
+                                    }
                                   }
                                 }
                               },
@@ -1032,13 +1035,7 @@
                   "type": "minecraft:condition",
                   "if_true": {
                     "type": "minecraft:biome",
-                    "biome_is": [
-                      "abgrund:abyss",
-                      "abgrund:dead_forest",
-                      "abgrund:dead_valley",
-                      "abgrund:cursed_valley",
-                      "abgrund:grenzen"
-                    ]
+                    "biome_is": ["abgrund:grenzen"]
                   },
                   "then_run": {
                     "type": "minecraft:block",

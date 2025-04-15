@@ -116,8 +116,50 @@ The Abgrund © 2025 by [pomy97](https://modrinth.com/user/pomy97) is licensed un
 The only places I upload my projects are on [Curseforge](https://legacy.curseforge.com/members/pomy97/projects) and [Modrinth](https://modrinth.com/user/pomy97)
 
 # N2S
-random patch in Dead Valley (remove pale oak moss decoration from bush)
-first thought was: how do I get my butt outta senken? not: i need a map to find the temple
-shroom vines look weird spawning on stone - do check for WARPED FUNGUS
-no food in dripstone desert or bluecaps
-make rabbits white so they're easier to see. they camoflague too well
+
+# first thought was: how do I get my butt outta senken? not: i need a map to find the temple
+
+- abyss houses generate in other biomes because sure
+
+- bunnies for dripstone
+- mushrooms for bluecap
+
+DAY 2 THOUGHT PROCESS
+ok so i need to get some actual food
+crossbow would be cool, there was skeleton in dripstone desert 
+found a house for food cus those things had BRED
+
+
+fishing mode is cool
+naturally spawning spiders to explain string source in chests
+
+stone enclosed lava generating in bastalt flats + sable plains
+
+basalt barrens and dripstone desert are BORRRING
+lack of paper
+
+
+sable plains have that horror aspect because phantoms and tall grass
+CANT SEE THE SHEEP IN THE PLAINS
+
+add water to sable plains + sable forest
+saturate dripstone desert with water + rename dripstone desert to something NOT desert
+rainin in limbo????? (cant to nothing about it + it's not that bad)
+
+
+Phantoms in limbo drop rotten flesh
+limbo skeletons have 100% chance to drop a bone upon death
+add clay to limbo to explain the POTS
+
+add randomly enchanted books and gear to limbo loot tables - vanilla w/ mending ant such
+
+explain glowstone in abgrund OR replace glowstone in altar with shroomlight
+
+rename dead valley to dead marshlands
+make secondary noisemap for texturing bluecap forest NOT AS DEEP
+
+occational lag
+
+make tower loot table for temple better and NOT HOT GARBAGE
+
+~5:22:00 blur video please :3

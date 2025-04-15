@@ -1,3 +1,9 @@
 {
-  "values": ["abgrund:abyss", "abgrund:cursed_valley", "abgrund:dead_valley"]
+  "values": [
+    "abgrund:abyss",
+    "abgrund:cursed_valley",
+    "abgrund:dead_valley",
+    "abgrund:basalt_flats",
+    "abgrund:sable_plains"
+  ]
 }

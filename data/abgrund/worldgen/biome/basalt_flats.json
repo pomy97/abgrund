@@ -10,21 +10,21 @@
   "has_precipitation": false,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "sound": "minecraft:ambient.basalt_deltas.additions",
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 6000
     },
     "music": [
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abyss"
+            "sound_id": "abgrund:music.limbo.basalt_flats"
           },
           "min_delay": 12000,
           "max_delay": 24000,
@@ -84,17 +84,19 @@
     [
       "minecraft:glow_lichen",
       "abgrund:oberer/pine_tree",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "abgrund:oberer/patch_dead_coral_basalt_flats",
       "abgrund:oberer/patch_dead_coral_fan_basalt_flats"
     ]
   ],
   "spawn_costs": {
     "skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "wither_skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "phantom": {

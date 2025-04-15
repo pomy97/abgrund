@@ -7,7 +7,11 @@
   ],
   "downfall": 0.8,
   "effects": {
-    "fog_color": 4079926,
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop","fog_color": 4079926,
     "foliage_color": 8883574,
     "grass_color": 7832178,
     "mood_sound": {
@@ -16,7 +20,19 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [],
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.unfactored_barrens"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
     "music_volume": 0.0,
     "sky_color": 7829367,
     "water_color": 1912146,
@@ -58,7 +74,7 @@
     ["minecraft:spring_water", "minecraft:spring_lava"],
     [
       "minecraft:glow_lichen",
-      "abgrund:oberer/pale_oak_checked",
+      "abgrund:oberer/pale_oak_sable_forest",
       "minecraft:pale_garden_flowers",
       "minecraft:flower_pale_garden",
       "minecraft:patch_grass_forest",

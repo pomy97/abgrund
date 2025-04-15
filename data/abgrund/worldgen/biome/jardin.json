@@ -16,7 +16,19 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": [],
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.jardin"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
     "music_volume": 0.0,
     "sky_color": 595243,
     "water_color": 4159204,
@@ -72,22 +84,22 @@
   "has_precipitation": true,
   "spawn_costs": {
     "skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "wither_skeleton": {
-      "charge": 1.7,
+      "charge": 0.7,
       "energy_budget": 0.15
     },
     "phantom": {
       "charge": 2,
       "energy_budget": 0.17
     },
-    "husk": {
+    "zombie": {
       "charge": 2,
       "energy_budget": 0.17
     },
-    "stray": {
+    "piglin": {
       "charge": 2,
       "energy_budget": 0.17
     }

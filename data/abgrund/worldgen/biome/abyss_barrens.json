@@ -19,7 +19,7 @@
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abyss"
+            "sound_id": "abgrund:music.limbo.abyss_barrens"
           },
           "min_delay": 12000,
           "max_delay": 24000,

@@ -17,14 +17,14 @@
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
     "music": [
       {
         "data": {
           "sound": {
-            "sound_id": "abgrund:music.limbo.abyss"
+            "sound_id": "abgrund:music.limbo.unfactored_barrens"
           },
           "min_delay": 12000,
           "max_delay": 24000,
@@ -56,6 +56,7 @@
       "abgrund:oberer/lava_delta_unfactored_barrens",
       "abgrund:oberer/basalt_columns_unfactored_barrens"
     ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -85,14 +86,15 @@
       "abgrund:oberer/ore_blackstone"
     ],
     [],
-    [],
     [
       "minecraft:glow_lichen",
       "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "abgrund:oberer/pine_tree_unfactored_barrens",
       "abgrund:senken/patch_dead_bush",
       "abgrund:oberer/patch_dead_coral_unfactored_barrens"
-    ]
+    ],
+    []
   ],
   "spawn_costs": {
     "phantom": {
@@ -111,13 +113,7 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [
-    {
-      "type": "zombie",
-      "maxCount": 3,
-      "minCount": 1,
-      "weight": 10
-    }],
+    "creature": [],
     "misc": [],
     "monster": [
       {

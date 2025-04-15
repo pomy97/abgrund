@@ -7,7 +7,7 @@
           "element_type": "single_pool_element",
           "projection": "rigid",
           "location": "abgrund:abyss_haus/small_1",
-          "processors": "empty"
+          "processors": "abgrund:cracked_blocks"
         },
         "weight": 1
       },
@@ -16,7 +16,7 @@
           "element_type": "single_pool_element",
           "projection": "rigid",
           "location": "abgrund:abyss_haus/small_2",
-          "processors": "empty"
+          "processors": "abgrund:cracked_blocks"
         },
         "weight": 1
       }

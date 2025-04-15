@@ -134,7 +134,7 @@
           }
         },
         {
-          "biome": "abgrund:tech/safe",
+          "biome": "abgrund:tech/unsafe",
           "parameters": {
             "temperature": [0.3, 0.7],
             "humidity": [-1, 0],
