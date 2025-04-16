@@ -1,18 +1,16 @@
 {
   "display": {
     "icon": {
-      "id": "enchanted_book",
+      "id": "netherite_axe",
       "components": {
-        "stored_enchantments": {
-          "abgrund:judgement": 1
-        }
+        "item_model": "goofy_smp:verbannung"
       }
     },
     "description": "Banish something to Limbo",
-    "title": "...and Executioner",
+    "title": "Verbannung",
     "announce_to_chat": true,
     "frame": "challenge",
-    "hidden": false,
+    "hidden": true,
     "show_toast": true
   },
   "criteria": {
@@ -20,5 +18,5 @@
       "trigger": "impossible"
     }
   },
-  "parent": "abgrund:jury"
+  "parent": "abgrund:judgement"
 }

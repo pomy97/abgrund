@@ -31,6 +31,22 @@
               }
             },
             {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "Use to transport in and out of Limbo",
+                  "color": "#2899a8",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Abgrund",
+                  "color": "#707070"
+                }
+              ]
+            },
+            {
               "function": "set_custom_data",
               "tag": {
                 "abgrund": {

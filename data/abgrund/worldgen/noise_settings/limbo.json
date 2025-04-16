@@ -417,7 +417,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "abgrund:abyss",
+                                  "abgrund:abyss_wastes",
                                   "abgrund:dead_valley",
                                   "abgrund:dead_forest"
                                 ]
@@ -641,7 +641,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "abgrund:abyss",
+                                  "abgrund:abyss_wastes",
                                   "abgrund:dead_valley",
                                   "abgrund:dead_forest"
                                 ]

@@ -5,6 +5,7 @@ scoreboard objectives add uthipacks.installed dummy
 scoreboard players set Abgrund uthipacks.installed 1
 # judgement Enchant
 scoreboard objectives add abg.health health
+scoreboard objectives add abg.killed_condemned dummy
 scoreboard objectives add abg.feed_cool dummy
 # misc
 scoreboard objectives add abg.deaths deathCount

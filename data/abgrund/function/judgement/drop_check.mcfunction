@@ -1,3 +1,6 @@
+execute on attacker run advancement grant @s only abgrund:judgement
+execute on attacker run scoreboard players add @s abg.killed_condemned 1
+execute on attacker if score @s abg.killed_condemned matches 200.. run advancement grant @s only abgrund:judge_jury_executioner
 #heaven
 execute if entity @s[tag=abg.heaven] run loot spawn ~ ~ ~ loot abgrund:entities/condemned/heaven
 #hell
