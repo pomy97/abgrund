@@ -1,6 +1,7 @@
 # The Abgrund
 A fancy datapack that adds Limbo to Minecraft. Heavilly insipired by [THE DECAYED](https://www.youtube.com/@THEDECAYEDD)
 
+## /!\ A few of the things mentioned in this document aren't implimented yet /!\
 # Mechanics
 ### Getting into Limbo
 - Two methods.
