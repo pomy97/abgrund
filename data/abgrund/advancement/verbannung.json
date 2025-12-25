@@ -1,10 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "netherite_axe",
-      "components": {
-        "item_model": "goofy_smp:verbannung"
-      }
+      "id": "enchanted_book"
     },
     "description": "Banish something to Limbo",
     "title": "Verbannung",

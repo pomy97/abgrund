@@ -58,7 +58,7 @@
       "type": "constant",
       "argument": 0
     },
-    "initial_density_without_jaggedness": {
+    "preliminary_surface_level": {
       "type": "constant",
       "argument": 1
     },

@@ -9,8 +9,7 @@ execute store result storage abgrund:temp test_spawn.Z int 1 run data get entity
 
 execute if data storage abgrund:perma_storage {spawn_safe:1b} run forceload add ~ ~
 $execute if data storage abgrund:perma_storage {spawn_safe:1b} at @s run \
-    spawnpoint @a[nbt={UUID:$(UUID)}] ~ ~ ~
-
+    spawnpoint @a[nbt={UUID:$(UUID)}] ~ ~ ~ 0 -90
 execute unless data storage abgrund:perma_storage {spawn_safe:1b} run function abgrund:mechanics/banish/set_spawn_failsafe with storage abgrund:temp banish
 #data remove storage abgrund:temp banish
 kill @s

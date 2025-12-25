@@ -12,7 +12,7 @@
     "title": "Abgrund",
     "announce_to_chat": false,
     "frame": "task",
-    "background": "minecraft:textures/block/blackstone_top.png",
+    "background": "block/blackstone_top",
     "hidden": false,
     "show_toast": false
   },

@@ -12,7 +12,10 @@
               "function": "set_components",
               "components": {
                 "!jukebox_playable": {},
-                "item_name": "{\"translate\":\"item.abgrund.essence_of_abgrund\",\"fallback\":\"Essence Of Abgrund\"}",
+                "item_name": {
+                  "translate": "item.abgrund.essence_of_abgrund",
+                  "fallback": "Essence Of Abgrund"
+                },
                 "rarity": "rare",
                 "consumable": {
                   "animation": "spear",
