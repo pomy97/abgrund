@@ -1,3 +1,5 @@
+# NO LONGER RECEIVING UPDATES
+Planned features will not get added.
 # The Abgrund
 A fancy datapack that adds Limbo to Minecraft. Heavilly insipired by [THE DECAYED](https://www.youtube.com/@THEDECAYEDD)
 ## If you wanna make a video with this:
